@@ -1,6 +1,6 @@
 #include <stdio.h>
-int add(a,b) {
-    return a+b;
+int add(int x, int y) {
+    return x+y;
 }
 
 int main() {
@@ -11,4 +11,5 @@ int main() {
     scanf("%d", &b);
     printf("Sum = %d", add(a,b));
     return 0;
+
 }
